@@ -1,38 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha primeira página web!</title>
-</head>
-<body>
-  <form action="">
-    <label>Nome</label>
-    <input type="text" placeholder="Fulano">
-<br><br>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Massa</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="images/logo.png" alt="Logo"/>
+      </div>
 
-    <label>Email</label>
-        <input type="email" placeholder="exemplo@email.com">
-    <br><br>    
-        
-        <label>Senha</label>
-        <input type="password">
-    <br><br>
+      <form class="sign-in" action="#">
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Senha" />
 
-        <label>Idade</label>
-        <select>
-            <option value="1-18">1-18</option>
-            <option value="19-35">19-35</option>
-            <option value="35-49">35-49</option>
-            <option value="50+">50+</option>
-        </select>
-    <br><br>
+        <button type="submit">Entrar</button>
+      </form>
+    </header>
+
+<main>
+    <section class="intro"></section> 
+        <h1>
+            Ajudamos<strong>programadores</strong> a conseguirem seus
+            <strong>primeiros empregos</strong>.
+        </h1>
+        <p>Mais de 100 mil desenvolvedores já conseguiram o seu primeiro emprego
+            usando nossa plataforma!</p>
+
+            <a href="#">Sou programador</a>
+            <a href="#">Somos empresa contratando</a>
+
+    <section class="language"></section>
     
-        <button type="submit">Enviar</button>
     
-    </form>
-</tbody>
-   </table>
-</body>
+    <section class="team"></section>
+</main>
+
+  </body>
 </html>
