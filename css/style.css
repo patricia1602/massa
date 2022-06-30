@@ -1,4 +1,5 @@
-/*Reset css*/
+/*reset CSS */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,4 +8,22 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #444;
+}
+
+section {
+    padding: 3rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.gray {
+    background-color: #f7f7f7;
+}
+
+footer {
+    background-color: #758af1;
 }
