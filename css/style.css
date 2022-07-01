@@ -12,12 +12,35 @@ body {
 }
 
 header {
-    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
     padding: 2rem;
 }
 
+.logo.img {
+    width: 211px;
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sign-in button {
+    border: none;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password']{
+    width: 180px;
+    padding: 0.5rem ;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
 section {
-    padding: 3rem;
+    padding: 3rem 0 4rem 0;
 }
 
 h1 {
@@ -41,6 +64,15 @@ h1.title {
     padding: 0 1rem;
 }
 
+.hero {
+    width: 60%;
+    margin: auto;
+}
+
+.cta {
+    margin: auto;
+    padding: 1rem;
+}
 .intro p {
     margin: 1rem o;
     font-size: 1.5rem;
@@ -75,7 +107,10 @@ h1.title {
 
 .cards {
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-around;
+
+    padding-top: 3rem;
+    list-style-type: none;   
 }
 
 .card {
@@ -85,7 +120,7 @@ h1.title {
     text-align: center;
 
     /*altura*/
-    margin: 18%;
+    margin: auto;
     height: 120px;
 
     border-radius: 10px;
