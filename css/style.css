@@ -11,6 +11,11 @@ body {
     color: #444;
 }
 
+header {
+    margin: auto;
+    padding: 2rem;
+}
+
 section {
     padding: 3rem;
 }
@@ -81,7 +86,7 @@ h1.title {
 
     /*altura*/
     margin: 18%;
-    height: 150px;
+    height: 120px;
 
     border-radius: 10px;
     color: white;
@@ -108,6 +113,35 @@ h1.title {
     background-color: #3cbfa1;
 }
 
+.members {
+    display: flex;
+    justify-content: space-between;
+}
+
+.member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
 footer {
     background-color: #3788bf;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 3rem;
+    list-style-type: none;
+}
+
+footer a {
+    color: white;
+}
+
+footer p.copyright {
+    padding: 3rem 0;
+    text-align: center;
+    color: #ffffffdd;
 }
