@@ -24,6 +24,17 @@ h1 {
     background-color: #f7f7f7;
 }
 
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.intro p {
+    margin: 1rem o;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
 footer {
-    background-color: #758af1;
+    background-color: #3788bf;
 }
