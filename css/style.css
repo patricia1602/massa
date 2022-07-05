@@ -1,4 +1,4 @@
-/*reset CSS */
+/*Reset CSS */
 
 * {
     margin: 0;
@@ -51,7 +51,7 @@ h1 {
 h1.title {
     margin-bottom: 2rem;
     text-align: center;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .gray {
@@ -69,14 +69,15 @@ h1.title {
     margin: auto;
 }
 
-.cta {
-    margin: auto;
-    padding: 1rem;
-}
 .intro p {
     margin: 1rem o;
     font-size: 1.5rem;
     font-weight: 100;
+}
+
+.cta {
+    margin: auto;
+    padding: 1rem;
 }
 
 .intro.cta {
@@ -85,7 +86,7 @@ h1.title {
 
 .button {
     padding: 10px 25px;
-    text-decoration: nome;
+    text-decoration: none;
     border-radius: 5px;
     margin-right: 5px;
     box-shadow: 0 5 px 10px 0 rgba(0, 0, 0, 0, 1);
@@ -107,10 +108,7 @@ h1.title {
 
 .cards {
     display: flex;
-    justify-content: space-around;
-
-    padding-top: 3rem;
-    list-style-type: none;   
+    justify-content: space-between;   
 }
 
 .card {
@@ -120,8 +118,8 @@ h1.title {
     text-align: center;
 
     /*altura*/
-    margin: auto;
-    height: 120px;
+    width: 18%;
+    height: 150px;
 
     border-radius: 10px;
     color: white;
@@ -165,7 +163,7 @@ footer {
 
 footer ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
     padding-top: 3rem;
     list-style-type: none;
